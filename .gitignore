@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# MLflow
+/mlflow.db
+/notebooks/mlflow.db
+/mlruns/
+/notebooks/mlruns/
+mlartifacts/
+
+# Logs
+*.log
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+
+# Python cache
+.pytest_cache/
