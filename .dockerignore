@@ -1,0 +1,47 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Git files
+.git/
+.github/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Testing and linting cache
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# MLflow local files
+mlruns/
+mlartifacts/
+mlflow.db
+*.db
+
+# Project files not needed by the API container
+notebooks/
+screenshots/
+report/
+tests/
+data/
+
+# Environment and log files
+.env
+*.log
+
+# Operating-system files
+.DS_Store
+Thumbs.db
